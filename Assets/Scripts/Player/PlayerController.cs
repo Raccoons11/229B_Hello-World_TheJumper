@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
             if (hasKey)
             {
                 Debug.Log("Level Cleared!");
-                // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
             else
             {

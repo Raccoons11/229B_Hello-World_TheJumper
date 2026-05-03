@@ -146,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 69192160}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.89569, y: 3.4119399, z: 0}
+  m_LocalPosition: {x: -8.28, y: 3.4119399, z: 0}
   m_LocalScale: {x: 3.3718002, y: 4.9076877, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1271,8 +1271,8 @@ Transform:
   m_GameObject: {fileID: 1264585003}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.0804, y: 1.42974, z: 0}
-  m_LocalScale: {x: 4.625357, y: 0.9393315, z: 1}
+  m_LocalPosition: {x: -4.2409, y: 1.42974, z: 0}
+  m_LocalScale: {x: 4.946357, y: 0.9393315, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1575927484}
@@ -1867,8 +1867,8 @@ Transform:
   m_GameObject: {fileID: 1954582936}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6286, y: 4.14, z: 0}
-  m_LocalScale: {x: 5.3084545, y: 0.54835856, z: 1}
+  m_LocalPosition: {x: -2.1559, y: 4.39, z: 0}
+  m_LocalScale: {x: 6.3631606, y: 0.54835856, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1575927484}
@@ -2172,7 +2172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2651706705195650384, guid: 86e00482c6f6625409fcf7407f262805, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.86083
+      value: -3.34
       objectReference: {fileID: 0}
     - target: {fileID: 2651706705195650384, guid: 86e00482c6f6625409fcf7407f262805, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2587,7 +2587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   moveSpeed: 4
-  jumpForce: 13
+  jumpForce: 12
   groundCheck: {fileID: 1022423372}
   groundCheckRadius: 0.2
   groundLayer:
