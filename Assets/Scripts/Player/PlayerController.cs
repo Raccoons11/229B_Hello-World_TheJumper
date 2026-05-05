@@ -103,11 +103,14 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("Jump", true);
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            Invoke("ResetJumpAnimation", 0.1f); // รีเซ็ตแอนิเมชันหลังจากกระโดด
         }
-        else
-        {
-            animator.SetBool("Jump", false);
-        }       
+    
+    }
+
+    private void ResetJumpAnimation()
+    {
+        animator.SetBool("Jump", false);
     }
 
     public void OnSprint(InputValue value)
@@ -142,7 +145,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void Die()
+    public void Die()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
